@@ -37,7 +37,23 @@ Customize parameters are:
 * grayshade (True/False) : make the images in gray shades
 * objects quantity on images : in one image, there are a random number of each objects, you can choose the maximum possible quantity of each object.
 
-# Why customizing this data set?
+## Why customizing this data set?
 
 Customizing this data set allows to modify images, classes choices and label element to experience different deep learning approaches.
 For examples : I trained models with different images sizes to experience the relation between accuracy and speed depending on images size ; I experience red_ball, yellow_ball, ... detection VS ball detection and realised that detecting balls without considering their color was much more effective.
+
+## How to run this program :
+
+`$ git clone https://github.com/BrouBrouz/BallDetectionOnPool`
+`$ cd BallDetectionOnPool`
+
+To custome the parameters, go in the python file : images_generator.py and change the values
+Then, to run the program, type : 
+`$ make`
+
+Images will be automatically saved in dataset folder
+
+To display an image with its bounding boxes : `$ make draw`
+
+## How to use pre-trained model YOLOV5 ?
+
