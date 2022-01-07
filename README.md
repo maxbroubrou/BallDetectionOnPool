@@ -45,6 +45,7 @@ For examples : I trained models with different images sizes to experience the re
 ## How to run this program :
 
 `$ git clone https://github.com/BrouBrouz/BallDetectionOnPool`
+<br/>
 `$ cd BallDetectionOnPool`
 
 To custome the parameters, go in the python file : images_generator.py and change the values
@@ -57,3 +58,4 @@ To display an image with its bounding boxes : `$ make draw`
 
 ## How to use pre-trained model YOLOV5 ?
 
+W.I.P.
