@@ -39,7 +39,7 @@ Customize parameters are:
 
 ## Why customizing this data set?
 
-Customizing this data set allows to modify images, classes choices and label element to experience different deep learning approaches.
+Customizing this data set allows to modify images, classes choices and label elements to experience different deep learning approaches. <br/>
 For examples : I trained models with different images sizes to experience the relation between accuracy and speed depending on images size ; I experience red_ball, yellow_ball, ... detection VS ball detection and realised that detecting balls without considering their color was much more effective.
 
 ## How to run this program :
@@ -59,3 +59,6 @@ To display an image with its bounding boxes : `$ make draw`
 ## How to use pre-trained model YOLOV5 ?
 
 W.I.P.
+
+<br/>
+<br/>
